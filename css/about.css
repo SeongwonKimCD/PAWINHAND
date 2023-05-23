@@ -1,0 +1,32 @@
+.banner_tt_bg {
+    height: 540px;
+    background: url(../images/banner_1.jpg) center center / cover no-repeat;
+}
+.about .contentwrap .section_subtt:last-child {
+    margin-bottom: 0;
+}
+.about .contentwrap .image-badge {
+    display: flex;
+    justify-content: center;
+    margin-bottom: calc(var(--base_lh) * 2);
+}
+.about .contentwrap .image-badge li:first-child {
+    margin-right: 50px;
+}
+.content .imgslider {
+    margin: calc(var(--base_lh) * 3) 0!important;
+}
+.content .imgslider img {
+    margin: 0 auto;
+}
+.slick-dots li button:before {
+    font-size: 30px!important;
+    color: var(--light_gray)!important;
+    opacity: 1!important;
+}
+.slick-dots li.slick-active button:before, .slick-dots li button:hover:before, .slick-dots li button:focus:before {
+    color: var(--primary)!important;
+}
+.section_img img {
+    margin: 0 auto;
+}

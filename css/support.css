@@ -1,0 +1,122 @@
+#logo.on {
+    display: none;
+}
+#logo_2 {
+    display: block;
+}
+.navi_wrap li a {
+    color: var(--base_fc)!important;
+}
+.mt-204 {
+    margin-top: 204px;
+}
+.text_center {
+    text-align: center;
+}
+.section_tt_bg {
+    height: 756px;
+    background: url(../images/support_bg.jpg) center center / cover no-repeat;
+    margin-top: calc(var(--base_lh) * 3);
+    margin-left: 38.5%;
+    position: relative;
+}
+.section_tt_bg .section_tt {
+    position: absolute;
+    left: -40%;
+    top: 10%;
+}
+.box_wrap {
+    position: relative;
+    max-width: 1400px;
+    padding: 0 20px;
+    margin: 0 auto;
+    margin-top: -243px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.box_wrap .box {
+    display: inline-block;
+    background: var(--white);
+    width: calc(25% - 12px);
+    min-width: 20%;
+    min-height: 162px;
+    padding: 30px;
+    background: #FFFFFF;
+    border: 1px solid var(--section_gray);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+.box_wrap .box .box_tt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    margin-bottom: 12px;
+    word-break: keep-all;
+}
+.box_wrap .box .box_tt img {
+    display: inline-block;
+}
+.box_wrap .box .content {
+    word-break: keep-all;
+}
+.contentwrap .section_tt .section_subtt{
+    margin-top: var(--base_lh);
+    margin-bottom: 63px;
+}
+.contentwrap h3 {
+    margin-bottom: var(--base_lh);
+}
+.contentwrap img {
+    margin: 0 auto;
+    padding-top: calc(var(--base_lh) * 2);
+}
+.contentwrap .content {
+    color: var(--gray);
+    margin-top: 9px;
+}
+.contentwrap .support_btn {
+    padding-top: var(--base_lh);
+    padding-bottom: calc(var(--base_lh) * 4);
+    flex-direction: row;
+}
+.contentwrap .support_btn li:first-child a{
+    margin-right: 32px;
+    background: var(--primary);
+    color: var(--white);
+}
+.contentwrap .support_btn li:first-child a:hover {
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    background: var(--white);
+    transition: 0.3s;
+}
+.mail {
+    background: var(--section_gray);
+}
+.mail .contentwrap {
+    padding: calc(var(--base_lh) * 4) 20px;
+}
+.mail .contentwrap img {
+    margin: 0;
+}
+.mail .contentwrap div {
+    flex-direction: column;
+    text-align: right;
+}
+.magazine_img {
+    max-width: 456px;
+    width: 100%;
+    padding-bottom: calc(var(--base_lh) * 4);
+}
+.certification_img {
+    max-width: 426px;
+    width: 100%;
+}
+footer {
+    margin-top: 0;
+}

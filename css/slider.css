@@ -1,0 +1,72 @@
+.swiper-container {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.swiper-container	+ .swiper-container {
+		margin-top: 30px;
+}
+.slide-bg1 {
+    background: url(../images/bg1.jpg) center center / cover no-repeat;
+}
+.slide-bg2 {
+    background: url(../images/bg2.jpg) center center / cover no-repeat;
+}
+.slide-bg3 {
+    background: url(../images/bg3.jpg) center center / cover no-repeat;
+}
+.slide-bg4 {
+    background: url(../images/bg4.jpg) center center / cover no-repeat;
+}
+.swiper-pagination-bullet {
+    width: 50px!important;
+    height: 3px!important;
+    border-radius: 0!important;
+    position: relative;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.4)!important;
+}
+.swiper-pagination-bullet::before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+    background: var(--white);
+}
+.swiper-button-prev {
+    width: 40px;
+    height: 40px;
+}
+.swiper-button-next {
+    width: 40px;
+    height: 40px;
+}
+.swiper-button-prev:after, .swiper-button-next:after {
+    color: var(--white);
+    font-size: 16px!important;
+    width: 40px;
+    text-align: center;
+}
+.swiper-pagination-bullet-active {
+    background: rgba(#000, 0.4);
+}
+.swiper-pagination-bullet-active::before {
+		background: var(--white);
+		animation: slide-progress 2s cubic-bezier(.3,0,.3,1) forwards;
+}
+.swiper-pagination-bullet-active {
+	  animation-play-state: paused;
+}
+
+@keyframes slide-progress {
+	0% {
+		transform: translateX(-100%);
+	}
+
+	100% {
+		transform: translateX(0);
+	}
+}
