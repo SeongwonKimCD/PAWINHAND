@@ -20,18 +20,21 @@
 .banner_tt {
     font-weight: 700;
     font-size: 50px;
+    letter-spacing: -0.02em;
     line-height: 65px;
     word-break: keep-all;
 }
 .section_tt {
     font-weight: 700;
     font-size: 50px;
+    letter-spacing: -0.02em;
     line-height: calc(var(--base_lh) * 3);
     word-break: keep-all;
 }
 .section_tt_eng {
     font-weight: 700;
     font-size: 50px;
+    letter-spacing: -0.02em;
     line-height: calc(var(--base_lh) * 3);
     letter-spacing: -0.03em;
     word-break: keep-all;
@@ -39,22 +42,26 @@
 .section_subtt{
     font-weight: 400;
     font-size: 22px;
+    letter-spacing: -0.02em;
     line-height: 36px;
     word-break: keep-all;
 }
 .notice_tt {
     font-weight: 400;
     font-size: 20px;
+    letter-spacing: -0.02em;
     line-height: 29px;
 }
 .content_tt {
     font-weight: 600;
     font-size: 32px;
+    letter-spacing: -0.02em;
     line-height: calc(var(--base_lh) * 2);
     word-break: keep-all;
 }
 .content {
     font-size: var(--base_fs);
+    letter-spacing: -0.02em;
     line-height: var(--base_lh);
     font-weight: 400;
     word-break: keep-all;
@@ -86,7 +93,6 @@ header {
     max-width: 1400px;
     width: 100%;
     margin: 0 auto;
-    padding: 0 20px;
     z-index: 99;
 }
 #logo {
@@ -197,6 +203,7 @@ header {
 }
 .more_btn span {
     margin-left: 7px;
+    line-height: 100%;
 }
 .more_btn:hover {
     background: var(--primary);
@@ -222,7 +229,6 @@ body {
 .contentwrap {
     position: relative;
     max-width: 1400px;
-    padding: 0 20px;
     width: 100%;
     margin: 0 auto;
 }
@@ -238,7 +244,6 @@ body {
 }
 .eng_tt_wrap {
     max-width: 1400px;
-    padding: 0 20px;
     width: 100%;
     margin: calc(var(--base_lh) * 3) auto;
     position: relative;
@@ -300,7 +305,7 @@ footer .contentwrap .ft_left img {
     padding-top: 0;
 }
 footer .contentwrap .ft_left .copyright {
-    margin: var(--base_lh) 0;
+    margin-top: var(--base_lh);
     text-align: left;
 }
 footer .contentwrap .ft_center {

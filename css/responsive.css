@@ -7,6 +7,12 @@
     }
 }
 @media (max-width: 1399px) {
+    .box_wrap {
+        padding: 0 16px;
+    }
+    .h_container {
+        padding: 0 16px;
+    }
     .banner_tt {
         font-size: 42px;
         line-height: 50px;
@@ -36,6 +42,9 @@
         line-height: var(--base_lh);
         font-weight: 400;
     }
+    .contentwrap {
+        padding: 0 16px;
+    }
     .number {
         font-weight: 700;
         font-size: 46px;
@@ -44,12 +53,14 @@
     .contentwrap .content_left {
         margin-right: 7%;
     }
+    .eng_tt_wrap {
+        padding: 0 16px;
+    }
     .eng_tt_wrap .eng_tt_sec .notice li {
         padding: 3%;
         width: 100%;
     }
     .eng_tt_wrap .eng_tt_sec .notice li:nth-child(3) {
-        margin-right: 2%;
         margin-bottom: 30px;
     }
     .eng_tt_wrap .eng_tt_sec .notice li:last-child {
@@ -91,7 +102,6 @@
     }
     .contentwrap .content_left img {
         margin: 0 auto;
-        width: 50%;
         margin-bottom: calc(var(--base_lh) * 2);
     }
     .contentwrap .content_right .card {
@@ -210,8 +220,14 @@
         margin-right: 0;
         margin-bottom: var(--base_lh);
     }
+    .contentwrap .activities .act_wrap img {
+        width: 100%;
+    }
     .box_wrap .box {
         min-width: 60%;
+    }
+    .contentwrap .content_left img {
+        max-width: 80%;
     }
     footer .contentwrap .ft_left {
         padding-right: 0;

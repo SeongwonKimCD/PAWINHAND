@@ -44,10 +44,9 @@
     padding-bottom: 0;
 }
 .contentwrap .activities .act_wrap img {
-    width: inherit;
-    height: inherit;
     max-width: 574px;
-    width: 100%;
+    width: 50%;
+    height: inherit;
 }
 .contentwrap .activities .act_wrap .act {
     width: 100%;
