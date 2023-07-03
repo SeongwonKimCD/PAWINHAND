@@ -303,6 +303,7 @@ footer .contentwrap .ft_left {
 }
 footer .contentwrap .ft_left img {
     padding-top: 0;
+    margin: 0;
 }
 footer .contentwrap .ft_left .copyright {
     margin-top: var(--base_lh);
